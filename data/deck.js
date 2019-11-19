@@ -8,7 +8,6 @@ module.exports = [
   { suit: "hammer", ability: "STR", name: "The Fiend", alignment: "LE" },
   { suit: "hammer", ability: "STR", name: "The Beating", alignment: "NE" },
   { suit: "hammer", ability: "STR", name: "The Cyclone", alignment: "CE" },
-
   { suit: "key", ability: "DEX", name: "The Dance", alignment: "LG" },
   { suit: "key", ability: "DEX", name: "The Cricket", alignment: "NG" },
   { suit: "key", ability: "DEX", name: "The Juggler", alignment: "CG" },
@@ -18,7 +17,6 @@ module.exports = [
   { suit: "key", ability: "DEX", name: "The Avalanche", alignment: "LE" },
   { suit: "key", ability: "DEX", name: "The Crows", alignment: "NE" },
   { suit: "key", ability: "DEX", name: "The Demon's Lantern", alignment: "CE" },
-
   { suit: "shield", ability: "CON", name: "The Trumpet", alignment: "LG" },
   { suit: "shield", ability: "CON", name: "The Survivor", alignment: "NG" },
   { suit: "shield", ability: "CON", name: "The Desert", alignment: "CG" },
@@ -33,7 +31,6 @@ module.exports = [
   },
   { suit: "shield", ability: "CON", name: "The Sickness", alignment: "NE" },
   { suit: "shield", ability: "CON", name: "The Waxworks", alignment: "CE" },
-
   { suit: "book", ability: "INT", name: "The Hidden Truth", alignment: "LG" },
   { suit: "book", ability: "INT", name: "The Wanderer", alignment: "NG" },
   { suit: "book", ability: "INT", name: "The Joke", alignment: "CG" },
@@ -43,7 +40,6 @@ module.exports = [
   { suit: "book", ability: "INT", name: "The Rakshasa", alignment: "LE" },
   { suit: "book", ability: "INT", name: "The Idiot", alignment: "NE" },
   { suit: "book", ability: "INT", name: "The Snakebite", alignment: "CE" },
-
   { suit: "star", ability: "WIS", name: "The Winged Serpent", alignment: "LG" },
   { suit: "star", ability: "WIS", name: "The Widwife", alignment: "NG" },
   { suit: "star", ability: "WIS", name: "The Publican", alignment: "CG" },
@@ -53,7 +49,6 @@ module.exports = [
   { suit: "star", ability: "WIS", name: "The Eclipse", alignment: "LE" },
   { suit: "star", ability: "WIS", name: "The Mute Hag", alignment: "NE" },
   { suit: "star", ability: "WIS", name: "The Lost", alignment: "CE" },
-
   { suit: "crown", ability: "CHA", name: "The Empty Throne", alignment: "LG" },
   { suit: "crown", ability: "CHA", name: "The Theater", alignment: "NG" },
   { suit: "crown", ability: "CHA", name: "The Unicorn", alignment: "CG" },
