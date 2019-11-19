@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 
 const deck = require("../lib/deck");
+const draw = require("../lib/draw");
 const shuffle = require("../lib/shuffle");
 
 const [_execPath, _filePath, count, seed] = process.argv;
-
 const cardsToDraw = parseInt(count) || 1;
 
 const result = shuffle(deck, seed);
 
-console.log(result.slice(0, cardsToDraw));
-process.exit();
+console.log(draw(result, cardsToDraw));
