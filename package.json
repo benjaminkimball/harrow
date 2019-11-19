@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "harrow-deck",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Kimball <hello@benjaminkimball.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "seedrandom": "^3.0.5"
+  }
+}

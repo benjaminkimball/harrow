@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+const deck = require("../lib/deck");
+const shuffle = require("../lib/shuffle");
+
+let [_execPath, _filePath, count, seed] = process.argv;
+count = parseInt(count) || 1;
+seed = seed || Date.now();
+
+const result = shuffle(deck, seed);
+
+console.log(result.slice(0, count));
+process.exit();
