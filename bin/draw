@@ -3,10 +3,11 @@
 const deck = require("../lib/deck");
 const shuffle = require("../lib/shuffle");
 
-let [_execPath, _filePath, count, seed] = process.argv;
-count = parseInt(count) || 1;
+const [_execPath, _filePath, count, seed] = process.argv;
+
+const cardsToDraw = parseInt(count) || 1;
 
 const result = shuffle(deck, seed);
 
-console.log(result.slice(0, count));
+console.log(result.slice(0, cardsToDraw));
 process.exit();
