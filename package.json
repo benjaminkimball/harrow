@@ -3,11 +3,20 @@
   "version": "0.0.0",
   "description": "Bringing the Varisian art of fortune telling to JavaScript.",
   "scripts": {
+    "format": "prettier --write 'lib/**/*.js'",
     "lint": "eslint 'lib/**/*.js'",
     "test": "cross-env NODE_ENV=test mocha 'lib/**/*.test.js'"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:benjaminkimball/harrow-deck.git"
+  },
   "author": "Benjamin Kimball <hello@benjaminkimball.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjaminkimball/harrow-deck/issues"
+  },
+  "homepage": "https://github.com/benjaminkimball/harrow-deck#readme",
   "dependencies": {
     "seedrandom": "^3.0.5"
   },
