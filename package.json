@@ -1,5 +1,5 @@
 {
-  "name": "harrow-deck",
+  "name": "harrow",
   "version": "0.0.0",
   "description": "Bringing the Varisian art of fortune telling to JavaScript.",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:benjaminkimball/harrow-deck.git"
+    "url": "git+ssh://git@github.com:benjaminkimball/harrow.git"
   },
   "author": "Benjamin Kimball <hello@benjaminkimball.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/benjaminkimball/harrow-deck/issues"
+    "url": "https://github.com/benjaminkimball/harrow/issues"
   },
-  "homepage": "https://github.com/benjaminkimball/harrow-deck#readme",
+  "homepage": "https://github.com/benjaminkimball/harrow#readme",
   "dependencies": {
     "seedrandom": "^3.0.5"
   },
