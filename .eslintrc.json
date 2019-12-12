@@ -1,8 +1,12 @@
 {
+  "env": {
+    "jest/globals": true
+  },
   "extends": [
     "standard",
+    "plugin:jest/all",
     "plugin:prettier/recommended",
     "plugin:security/recommended"
   ],
-  "plugins": ["prettier", "security"]
+  "plugins": ["jest", "prettier", "security"]
 }
