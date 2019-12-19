@@ -6,7 +6,8 @@
     "standard",
     "plugin:jest/all",
     "plugin:prettier/recommended",
-    "plugin:security/recommended"
+    "plugin:security/recommended",
+    "prettier/standard"
   ],
   "plugins": ["jest", "prettier", "security"]
 }
